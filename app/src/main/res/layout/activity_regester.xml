@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegesterActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="143dp"
+        android:layout_height="174dp"
+        android:src="@drawable/abc">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="-45dp"
+        android:fontFamily="@font/bungee"
+        android:text="WELCOME"
+        android:textColor="#2F4F4F"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:text="Signup to start your jpurney"
+        android:paddingLeft="20dp"
+        android:textSize="18dp"
+        android:textColor="#2F4F4F"
+        android:layout_marginTop="1dp"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <!--        <com.google.android.material.textfield.TextInputLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content">-->
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/FULL_NAME"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#ECEAEA"
+            android:hint="FULL NAME"
+            android:textColor="#2F4F4F"
+            android:textColorHint="#383737">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/USERNAME"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="#FFECEAEA"
+            android:hint="USERNAME"
+            android:textColor="#2F4F4F"
+            android:textColorHint="#383737">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/EMAIL"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="#FFECEAEA"
+            android:hint="EMAIL"
+            android:textColor="#2F4F4F"
+            android:textColorHint="#383737">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/PHONE_NO"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="#FFECEAEA"
+            android:hint="PHONE NO"
+            android:textColor="#2F4F4F"
+            android:textColorHint="#383737">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/PASSWORD"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="#FFECEAEA"
+            android:hint="PASSWORD"
+            android:textColor="#2F4F4F"
+            android:textColorHint="#383737">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/regester_btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="#000"
+        android:text="Regester"
+        android:textColor="#fff">
+
+    </Button>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        android:text="Already have an one. Login?"
+        android:background="#000"
+        android:id="@+id/login_btn"
+        android:textColor="#fff"
+        >
+
+    </Button>
+
+
+
+
+</LinearLayout>

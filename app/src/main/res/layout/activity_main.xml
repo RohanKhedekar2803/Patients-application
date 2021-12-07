@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2FBF2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="278dp"
+        android:layout_height="174dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/pic">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="-25dp"
+        android:fontFamily="@font/bungee"
+        android:text="WELCOME"
+        android:textColor="#2F4F4F"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="1dp"
+        android:paddingLeft="20dp"
+        android:text="to Patients Data Manager"
+        android:textColor="#2F4F4F"
+        android:textSize="18dp"></TextView>
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="124dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/oip2">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Regester"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#A492C3"
+            android:hint="REGESTER"
+            android:textColor="#0F1010"
+            android:textColorHint="#383737">
+
+        </Button>
+
+        <Button
+            android:id="@+id/Login"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+                 android:background=" #A492C3"
+            android:hint="LOGIN"
+            android:textColor="#2F4F4F"
+            android:textColorHint="#383737">
+
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-20dp"
+        android:paddingLeft="20dp"
+        android:text="Need help ?"
+        android:textColor="#2F4F4F"
+        android:textSize="18dp"></TextView>
+
+</LinearLayout>
